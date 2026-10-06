@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#efe5f5;
+}
+
+header{
+    background:white;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    color:#0f2145;
+    font-size:24px;
+    margin-bottom:5px;
+}
+
+header p{
+    color:#68758d;
+}
+
+.header-company{
+    color:#8c95aa;
+}
+
+.container{
+    width:80%;
+    margin:40px auto;
+}
+
+.search-card{
+    background:white;
+    padding:35px;
+    border-radius:18px;
+}
+
+.search-card h2{
+    margin-bottom:30px;
+    color:#203454;
+}
+
+.row{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr 1fr;
+    gap:18px;
+}
+
+.field label{
+    display:block;
+    margin-bottom:10px;
+    color:#243b5a;
+}
+
+input,
+select{
+    width:100%;
+    padding:14px;
+    border:1px solid #d8dce5;
+    border-radius:12px;
+    font-size:16px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border:2px solid #8b5cf6;
+}
+
+.bottom{
+    margin-top:25px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.small{
+    width:180px;
+}
+
+button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:14px 26px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#6d28d9;
+}
+
+.result-box{
+    background:white;
+    margin-top:35px;
+    height:170px;
+    border-radius:18px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    color:#8b95a8;
+}
+
+.result-box strong{
+    color:#263b5a;
+}
+
+footer{
+    width:80%;
+    margin:50px auto;
+    color:#8e97aa;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Company Lead Finder</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Company Lead Finder</h1>
+            <p>Find recently registered Finnish companies</p>
+        </div>
+
+        <div class="header-company">
+            Apex Logistics & Event Services Oy
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="search-card">
+
+            <h2>Search Criteria</h2>
+
+            <div class="row">
+
+                <div class="field">
+                    <label>City</label>
+                    <input type="text" placeholder="Enter Finnish city">
+                </div>
+
+                <div class="field business">
+                    <label>Business Line</label>
+
+                    <select>
+                        <option>Select business line</option>
+                        <option>55 Accommodation</option>
+                        <option>56 Food and Beverage Services</option>
+                        <option>62 Computer Programming</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label>Registration From</label>
+                    <input type="text" placeholder="DD.MM.YYYY">
+                </div>
+
+                <div class="field">
+                    <label>Registration To</label>
+                    <input type="text" placeholder="DD.MM.YYYY">
+                </div>
+
+            </div>
+
+            <div class="bottom">
+
+                <div class="field small">
+                    <label>Maximum Results</label>
+
+                    <select>
+                        <option>10</option>
+                        <option>20</option>
+                    </select>
+                </div>
+
+                <button>Fetch Companies</button>
+
+            </div>
+
+        </div>
+
+        <div class="result-box">
+            Fill in the search criteria above and click
+            <strong>Fetch Companies</strong>
+            to see results.
+        </div>
+
+    </div>
+
+    <footer>
+        Company Lead Finder · Prototype · Data source:
+        Finnish Trade Register (simulated)
+    </footer>
+
+</body>
+
+</html>
