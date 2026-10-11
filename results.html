@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results</title>
-
-    css/style.css
+    <title>Search Results - Company Lead Finder</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div>
+            <h1>Company Lead Finder</h1>
+            <p>Find recently registered Finnish companies</p>
+        </div>
+        <div class="header-company">Apex Logistics &amp; Event Services Oy</div>
+    </header>
 
-<header>
-    <h1>Company Results</h1>
-</header>
+    <main class="container">
+        <section class="result-container">
+            <h2>Search Results</h2>
+            <p class="result-count">2 companies found</p>
+            <!-- Example data for the static prototype -->
+            <div class="card">
+                <h3>Apex Logistics &amp; Event Services Oy</h3>
+                <p><strong>City:</strong> Helsinki</p>
+                <p><strong>Business Line:</strong> Logistics</p>
+                <p><strong>Registration Date:</strong> 15.01.2025</p>
+            </div>
+            <div class="card">
+                <h3>Nordic Digital Solutions Oy</h3>
+                <p><strong>City:</strong> Espoo</p>
+                <p><strong>Business Line:</strong> IT Services</p>
+                <p><strong>Registration Date:</strong> 18.01.2025</p>
+            </div>
+            <a href="index.html" class="btn">Back to Search</a>
+        </section>
+    </main>
 
-<div class="result-container">
-
-    <div class="card">
-        <h3>Apex Logistics & Event Services Oy</h3>
-
-        <p><strong>City:</strong> Helsinki</p>
-
-        <p><strong>Business Line:</strong> Logistics</p>
-
-        <p><strong>Registration Date:</strong> 15.01.2025</p>
-    </div>
-
-    <div class="card">
-        <h3>Nordic Digital Solutions Oy</h3>
-
-        <p><strong>City:</strong> Espoo</p>
-
-        <p><strong>Business Line:</strong> IT Services</p>
-
-        <p><strong>Registration Date:</strong> 18.01.2025</p>
-    </div>
-
-</div>
-
+    <footer>Company Lead Finder · Prototype · Data source: Finnish Trade Register (simulated)</footer>
 </body>
 </html>
