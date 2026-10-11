@@ -20,15 +20,19 @@ header{
 header h1{
     color:#0f2145;
     font-size:24px;
+    font-weight:700;
     margin-bottom:5px;
 }
 
 header p{
     color:#68758d;
+    font-size:14px;
 }
 
 .header-company{
-    color:#8c95aa;
+    color:#334155;
+    font-size:16px;
+    font-weight:600;
 }
 
 .container{
@@ -43,8 +47,10 @@ header p{
 }
 
 .search-card h2{
-    margin-bottom:30px;
+    margin-bottom:24px;
     color:#203454;
+    font-size:18px;
+    font-weight:600;
 }
 
 .row{
@@ -55,17 +61,21 @@ header p{
 
 .field label{
     display:block;
-    margin-bottom:10px;
+    margin-bottom:8px;
     color:#243b5a;
+    font-size:14px;
+    font-weight:500;
 }
 
 input,
 select{
     width:100%;
-    padding:14px;
+    height:44px;
+    padding:0 14px;
     border:1px solid #d8dce5;
-    border-radius:12px;
+    border-radius:10px;
     font-size:16px;
+    background:white;
 }
 
 input:focus,
@@ -75,7 +85,7 @@ select:focus{
 }
 
 .bottom{
-    margin-top:25px;
+    margin-top:22px;
     display:flex;
     justify-content:space-between;
     align-items:flex-end;
@@ -86,14 +96,15 @@ select:focus{
 }
 
 button{
+    height:44px;
     background:#7c3aed;
     color:white;
     border:none;
-    padding:14px 26px;
+    padding:0 26px;
     border-radius:10px;
     cursor:pointer;
-    font-size:18px;
-    font-weight:bold;
+    font-size:16px;
+    font-weight:700;
 }
 
 button:hover{
@@ -119,5 +130,6 @@ button:hover{
 footer{
     width:80%;
     margin:50px auto;
-    color:#8e97aa;
+    color:#64748b;
+    font-size:14px;
 }
