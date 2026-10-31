@@ -214,3 +214,25 @@ footer{
         padding: 25px 18px;
     }
 }
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid #d9d9e3;
+}
+
+.results-table th {
+    font-weight: 600;
+    background-color: #f7f5fa;
+}
+
+.results-table tbody tr:hover {
+    background-color: #faf9fc;
+}
