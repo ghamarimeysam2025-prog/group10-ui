@@ -1,0 +1,238 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body {
+    background: #efe5f5;
+}
+
+header {
+    background: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header h1 {
+        color: #0f2145;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    header p {
+        color: #68758d;
+        font-size: 14px;
+    }
+
+.header-company {
+    color: #334155;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.search-card {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+}
+
+    .search-card h2 {
+        margin-bottom: 24px;
+        color: #203454;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    gap: 18px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #243b5a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input,
+select {
+    width: 100%;
+    height: 44px;
+    padding: 0 14px;
+    border: 1px solid #d8dce5;
+    border-radius: 10px;
+    font-size: 16px;
+    background: white;
+}
+
+    input:focus,
+    select:focus {
+        outline: none;
+        border: 2px solid #8b5cf6;
+    }
+
+.bottom {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.small {
+    width: 180px;
+}
+
+button {
+    height: 44px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    padding: 0 26px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+    button:hover {
+        background: #6d28d9;
+    }
+
+.result-box {
+    background: white;
+    margin-top: 35px;
+    min-height: 170px;
+    border-radius: 18px;
+    padding: 30px;
+    display: block !important;
+    font-size: 18px;
+    color: #8b95a8;
+}
+
+    .result-box strong {
+        color: #263b5a;
+    }
+
+footer {
+    width: 80%;
+    margin: 50px auto;
+    color: #64748b;
+    font-size: 14px;
+}
+/* Results and No Results pages */
+
+.result-container {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+    margin-top: 35px;
+}
+
+    .result-container h2 {
+        color: #203454;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+.result-count {
+    color: #68758d;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #faf8fc;
+    border: 1px solid #d8dce5;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+    .card h3 {
+        color: #0f2145;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .card p {
+        color: #334155;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+.no-results {
+    background: white;
+    border-radius: 18px;
+    padding: 60px 30px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+    .no-results h2 {
+        color: #203454;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .no-results p {
+        color: #68758d;
+        margin-bottom: 12px;
+        font-size: 17px;
+    }
+
+.btn {
+    display: inline-block;
+    background: #7c3aed;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    .btn:hover {
+        background: #6d28d9;
+    }
+
+@media (max-width: 700px) {
+    .result-container,
+    .no-results {
+        padding: 25px 18px;
+    }
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+    .results-table th,
+    .results-table td {
+        padding: 14px 16px;
+        text-align: left;
+        border-bottom: 1px solid #d9d9e3;
+    }
+
+    .results-table th {
+        font-weight: 600;
+        background-color: #f7f5fa;
+    }
+
+    .results-table tbody tr:hover {
+        background-color: #faf9fc;
+    }
